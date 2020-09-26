@@ -4,34 +4,39 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>3rd CodeReview</title>
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
 
 		<header>
-			<img src="img/logo.png">
-			<img src="img/banner.png">
+			<img src="img/logo.png" height="100%">
+			<img src="img/banner.png" height="100%">
 		</header>
 
-		<nav class="navTop">
-			<ul>
-				<li>Home</li>
-				<li>Team</li>
+		<nav>
+			<ul class="navTop">
+				<li class="liNav">Home</li>
+				<li class="liNav">Team</li>
 			</ul>
 		</nav>
 
 		<div id="background">
-			<h1>Car insurance</h1>
+			<p id="heading">Car insurance</p>
+			<img src="img/traffic-332857_1920.jpg" width="100%">
 		</div>
 
 		<div id="calculation">
 			<h1>Great coverage begins with a custom quote</h1>
 			<br>
 			<form>
+				<div id="firstRow">
 				Your Name:<br>
 				<input type="text"><br>
 				Age:<br>
-				<input type="text"><br>
+				<input type="text">
+				</div>
+				<div id="secondRow">
 				Country:<br>
 				<select>
 					<option value="austria">Austria</option>
@@ -40,7 +45,9 @@
 				</select><br>
 				Horsepower of your car:<br>
 				<input type="text"><br>
+				</div>
 				<input type="submit">
+			</form>
 
 
 		</div>
@@ -50,43 +57,52 @@
 			<p>Understanding your coverage options shouldn't be so hard. We'll guide you through availaible coverage types, starting with who and what is covered.</p>
 		</div>
 
+	
+
 		<div id="selection">
+
 			<div class="standard">
 				<h3>What comes standard</h3>
 				<p>The coverage you need</p>
 				<ul>
-					<li>Bodily Injury Liability</li>
-					<li>Proberty Damage</li>
-					<li>Medical payments</li>
+					<li>&#10003; Bodily Injury Liability</li>
+					<li>&#10003; Proberty Damage</li>
+					<li>&#10003; Medical payments</li>
 				</ul>
 				<br>
 				<p><b>Benefits</b></p>
 				<p>12-month rate guarantee | 24/7 costumer service | Lifetime Repair Guarantee</p>
 			</div>
+
 			<div class="addOn">
-				<div class="standard">
+		
 				<h3>Add-on prodection & coveraged</h3>
 				<p>For more peace of mind</p>
 				<ul>
-					<li>Better Car Replacement</li>
-					<li>Towning & Labor</li>
-					<li>Remtal Car Coverage</li>
+					<li>&#10003; Better Car Replacement</li>
+					<li>&#10003; Towning & Labor</li>
+					<li>&#10003; Remtal Car Coverage</li>
 				</ul>
 				<br>
 				<p><b>Earned Benefits</b></p>
-				<p>Accident Forgivness&#185; | New Car Replacement&trade;</p>
+				<p>Accident Forgiveness&#185; | New Car Replacement&trade;</p>
 			</div>
+
 		</div>
 
-		<navBottom>
-			<ul>
-				<li>Home</li>
-				<li>Team</li>
+
+	
+
+		<nav>
+			<ul class="navBottom">
+				<li class="liNav">Home</li>
+				<li class="liNav">Team</li>
 			</ul>
-		</navBottom>
+		</nav>
 
 		<footer>
 			<img src="img/logo-inv.png">
+			<p class="pFoot">Dominik Ringabuer - CodeFactory 2020</p>
 		</footer>
 
 	</body>

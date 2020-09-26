@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Avenir;
+	margin: 1%;
+}
+
+header {
+	background: rgb(255,242,242);
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5% 0 1.5% 0;
+}
+
+ul.navTop {
+	background: rgb(141,23,21);
+	color:  white;
+	padding-left: 1%;
+}
+
+li.liNav {
+	display: inline;
+}
+
+#background {
+	margin: 0;
+	padding: 0;
+}
+
+
+#heading {
+	font-size: 300%;
+	color:  white;
+	position: absolute;
+	padding: 2% 0 0 1%;
+}
+
+#calculation {
+	width: 80%;
+	height: 112%;
+	border: 3px solid rgb(118,118,118);
+	background: rgba(255,255,255,0.8);
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+
+h1 {
+	text-align: center;
+	padding: 1% 35% 0 35%;
+}
+
+
+
+/*#secondRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}*/
+
+#selection {
+	display: flex;
+	justify-content: space-around;
+	margin: 4% 0 4% 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.standard {
+	width: 300px;
+	border: 1px solid black;
+	padding: 3%;
+}
+
+.addOn {
+	width: 300px;
+	border: 1px solid black;
+	padding: 3%;
+}
+
+#covText {
+	background: rgb(206,206,206);
+	text-align: center;
+	margin-top: -6px;
+	padding: 3% 34% 2% 34%;
+}
+
+ul.navBottom {
+	background: black;
+	color: white;
+}
+
+footer {
+	background: black;
+}
+
+.pFoot {
+	color: white;
+}
