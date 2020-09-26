@@ -10,7 +10,7 @@ function calculateInsurance(){
 
 	//insurance for austria
 	var aut = (horsepower * 100) / (Number(age) + 50);
-	var insuranceAut = aut.toFixed(2); //to get two figures digits the comma
+	var insuranceAut = aut.toFixed(2); //to get two digits after the comma
 
 	//insurance for hungary
 	var hun = (horsepower * 120) / (Number(age) + 100);
@@ -33,3 +33,7 @@ function calculateInsurance(){
 }
 
 document.getElementById("submit").addEventListener("click",calculateInsurance,false);
+
+
+
+

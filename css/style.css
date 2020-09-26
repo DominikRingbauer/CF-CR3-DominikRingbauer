@@ -21,8 +21,13 @@ ul.navTop {
 	padding-left: 1%;
 }
 
+ul.navBottom {
+	padding-left: 1%;
+}
+
 li.liNav {
 	display: inline;
+	padding-right: 1%
 }
 
 #background {
@@ -50,7 +55,7 @@ li.liNav {
 
 h1 {
 	text-align: center;
-	font-size: 4em;
+	font-size: 400%;
 	padding: 1% 15% 0 15%;
 }
 
@@ -79,6 +84,7 @@ select {
 	color: white;
 	border: 0;
 	border-radius: 4px;
+	padding: 0.5% 5% 0.5% 5%;
 }
 
 #output {
@@ -102,16 +108,11 @@ li {
 	list-style-type: none;
 }
 
-.standard {
+.borders {
 	width: 300px;
 	border: 1px solid black;
 	padding: 3%;
-}
-
-.addOn {
-	width: 300px;
-	border: 1px solid black;
-	padding: 3%;
+	box-shadow: 1px 2px 2px gray;
 }
 
 #covText {
@@ -119,6 +120,10 @@ li {
 	text-align: center;
 	margin-top: -6px;
 	padding: 3% 34% 2% 34%;
+}
+
+h3 {
+	color: rgb(80,103,144);
 }
 
 ul.navBottom {
@@ -132,7 +137,66 @@ footer {
 
 .pFoot {
 	color: white;
+	text-align: center;
 }
+
+#logoBottom {
+	position: relative;
+	left: 85%;
+}
+
+/* media query for mobile phones */
+@media screen and (max-width: 480px) {
+  header {
+    background-color: blue;
+  }
+
+  h1 {
+	text-align: center;
+	font-size: 150%;
+	padding: 1% 15% 0 15%;
+}
+
+#calculation {
+	width: 80%;
+	height: 31%;
+	border: 3px solid rgb(118,118,118);
+	background: rgba(255,255,255,0.8);
+	position: absolute;
+	top: 22%;
+	left: 10%;
+}
+
+#heading {
+	font-size: 200%;
+	color:  white;
+	position: absolute;
+	padding: 2% 0 0 1%;
+}
+
+input {
+	font-size: 0.9em;
+}
+
+select {
+	font-size: 0.9em;
+}
+
+#covText {
+	background: rgb(206,206,206);
+	text-align: center;
+	margin-top: -6px;
+	padding: 3% 10% 2% 10%;
+}
+
+#logoBottom {
+	position: relative;
+	left: 55%;
+}
+
+}
+
+
 
 
 
