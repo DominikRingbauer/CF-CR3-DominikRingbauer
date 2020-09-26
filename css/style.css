@@ -50,16 +50,47 @@ li.liNav {
 
 h1 {
 	text-align: center;
-	padding: 1% 35% 0 35%;
+	font-size: 4em;
+	padding: 1% 15% 0 15%;
 }
 
 
 
-/*#secondRow {
+#form {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-}*/
+}
+
+input {
+	font-size: 1.5em;
+}
+
+select {
+	font-size: 1.5em;
+}
+
+.submit {
+	text-align: center;
+}
+
+#submit {
+	background: rgb(51,146,53);
+	color: white;
+	border: 0;
+	border-radius: 4px;
+}
+
+#output {
+	width: 90%;
+	color: rgb(51,146,53);
+	font-size: 2em;
+	position: absolute;
+	top: 89%;
+	left: 50%;
+	margin-left: -45%;
+	text-align: center;
+}
 
 #selection {
 	display: flex;
@@ -102,3 +133,18 @@ footer {
 .pFoot {
 	color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

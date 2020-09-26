@@ -29,25 +29,34 @@
 		<div id="calculation">
 			<h1>Great coverage begins with a custom quote</h1>
 			<br>
-			<form>
-				<div id="firstRow">
+			
+				<div id="form">
+					<div>
 				Your Name:<br>
-				<input type="text"><br>
-				Age:<br>
-				<input type="text">
-				</div>
-				<div id="secondRow">
+				<input type="text" id="name"><br>
 				Country:<br>
-				<select>
-					<option value="austria">Austria</option>
-					<option value="hungary">Hungary</option>
-					<option value="greece">Greece</option>
-				</select><br>
+				<select id="countries">
+					<option value="Austria">Austria</option>
+					<option value="Hungary">Hungary</option>
+					<option value="Greece">Greece</option>
+				</select>
+				
+					</div>
+					<div>
+				Age:<br>
+				<input type="text" id="number"><br>
 				Horsepower of your car:<br>
-				<input type="text"><br>
+				<input type="text" id="hp">
+					</div>
 				</div>
-				<input type="submit">
-			</form>
+				<div class="submit">
+				<input type="submit" value="Calculate" id="submit">
+				</div>
+				<p id="output"></p>
+			</div>
+
+
+			
 
 
 		</div>
@@ -105,6 +114,7 @@
 			<p class="pFoot">Dominik Ringabuer - CodeFactory 2020</p>
 		</footer>
 
+		<script src="js/main.js"></script>
 	</body>
 
 </html>
