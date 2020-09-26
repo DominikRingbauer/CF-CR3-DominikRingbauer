@@ -1,0 +1,22 @@
+var members = `
+
+[{
+      
+      "name": "Fran",
+      "email": "fran@index.com",
+      "phone": "0664123",
+      "jobTitle": "CEO",
+      "image": "img/person1.png"
+  }, {
+      "name": "Bill",
+      "email": "bill@index.com",
+      "phone": "0664456",
+      "jobTitle": "Assistant",
+      "image": "img/person2.png"  
+  }, {
+      "name": "Fritz",
+      "email": "fritz@index.com",
+      "phone": "0664789",
+      "jobTitle": "Sales Manager",
+      "image": "img/person3.png"
+  }] `
